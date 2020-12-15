@@ -1,0 +1,60 @@
+:root{
+    /* BACKGROUND COLORS */
+    --backgroundGray:#FAFAFA;
+    --backgroundWhite:#FFFFFF;
+    --buttonBlue:#007BFF;
+    --textBlack:#1B2733;
+    --textGray:#677685;
+    --marginTop:20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+.mt-5{
+    margin-top: 40px;
+}
+img{
+    display: block;
+    max-width: 100%;
+  height: auto;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.text_center{
+    text-align: center;
+}
+.heading_font{
+    font-size: 46px;
+    color: var(--textBlack);
+}
+.container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0px  auto;
+}
+#aboutUsSection{
+    margin-top: 2rem;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--backgroundGray);
+}
+/*GRID CLASS */
+.grid{
+    display: grid;
+   
+}
+.twoColumnsOnDesktop{
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:40px;
+}
+#aboutusRightPara{
+    margin-top: calc(var(--marginTop) + 30px);
+}
+#aboutUsWriteup{
+    margin-top: var(--marginTop); 
+}
